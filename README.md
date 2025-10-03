@@ -9,7 +9,6 @@ This project fetches real-time exchange rates from a public API and allows users
 - Convert between multiple currencies in real time.
 - Fetches live exchange rates from a public API.
 - Responsive design — works smoothly on desktop and mobile.
-- Built with **React hooks** (`useState`, `useEffect`) for state management.
 - Styled with **Tailwind CSS** for a modern and consistent UI.
 - Error handling for API/network issues.
 
