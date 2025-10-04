@@ -20,3 +20,14 @@ This project fetches real-time exchange rates from a public API and allows users
 - **Exchange Rate API** — provides real-time currency exchange data.
 
 ---
+## Project Structure
+currency_converter/
+├── public/ # Static assets
+├── src/
+│ ├── components/ # Reusable React components (CurrencySelector, Result, etc.)
+│ ├── App.jsx # Main application component
+│ ├── main.jsx # React entry point
+│ └── index.css # Tailwind CSS styles
+├── package.json # Project dependencies
+├── vite.config.js # Vite configuration
+└── README.md # Project documentation
