@@ -5,9 +5,10 @@ export default function AmountInput({ value, onChange }) {
     <input
       type="number"
       min="0"
+      step="any"
       value={value}
-      onChange={(e) => onChange(Number(e.target.value))}
-      className="w-full border p-2 rounded"
+      onChange={(e) => onChange(e.target.value)}
+      className="w-full border rounded p-2 focus:outline-none focus:ring-2 focus:ring-indigo-200"
     />
   )
 }

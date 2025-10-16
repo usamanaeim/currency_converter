@@ -1,16 +1,19 @@
 import React from 'react'
 
 export default function CurrencySelector({ value, onChange, rates }) {
-  // Build options list either from rates (keys) or fallback common currencies
-  const currencyOptions = rates ? Object.keys(rates) : ['USD', 'EUR', 'GBP', 'JPY', 'AUD', 'CAD']
+  const fallback = ['USD', 'EUR', 'GBP', 'JPY', 'AUD', 'CAD']
+  const options = rates ? Object.keys(rates) : fallback
+
+  // sort alphabetically
+  options.sort()
 
   return (
     <select
       value={value}
       onChange={(e) => onChange(e.target.value)}
-      className="w-full border p-2 rounded"
+      className="w-full border rounded p-2 focus:outline-none focus:ring-2 focus:ring-indigo-200"
     >
-      {currencyOptions.map((c) => (
+      {options.map((c) => (
         <option key={c} value={c}>
           {c}
         </option>
