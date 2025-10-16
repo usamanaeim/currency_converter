@@ -5,8 +5,7 @@ This project fetches real-time exchange rates (ExchangeRate-API v6 example) from
 ---
 
 ## Live demo
-*(Add your Netlify URL here after deployment)*
-
+https://osama-currencyconverter.netlify.app/ 
 ---
 
 ## Features
