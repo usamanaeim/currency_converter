@@ -9,7 +9,7 @@ export default function ConversionResult({ amount, converted, target, loading })
   }
 
   return (
-    <div className="p-4 bg-indigo-50 rounded mb-3">
+    <div className="p-4 bg-indigo-50 dark:bg-gray-400 rounded mb-3">
       <div className="text-sm text-gray-600">Converted</div>
       <div className="text-xl font-semibold text-indigo-700">
         {amount} → {converted} {target}
