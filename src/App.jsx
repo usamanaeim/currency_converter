@@ -154,7 +154,7 @@ function App() {
         <RateInfo base={base} target={target} rates={rates} loading={loading} />
 
         <div className="mt-6 text-xs text-muted">
-          <p>Powered by ExchangeRate-API (v6 example).</p>
+          <p>Powered by ExchangeRate-API.</p>
         </div>
       </div>
     </div>
