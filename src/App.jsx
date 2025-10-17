@@ -82,10 +82,9 @@ function App() {
     setBase((prevBase) => {
       // swap: setBase to current target
       const oldBase = prevBase
-      setTarget(oldBase) // set target to previous base
-      return target // new base = previous target
+      setTarget(oldBase) 
+      return target 
     })
-    // Note: swapping triggers useEffect to refetch for new base
   }
 
   // toggle theme
