@@ -20,6 +20,7 @@ https://osama-currencyconverter.netlify.app/
 ## New features added
 - **Swap button** — click the Swap button between the currency selectors to swap From and To currencies instantly.
 - **Dark mode toggle** — toggle between Light and Dark themes.
+- **Search box** — users can simply type the currency name or code, like “USD” or “Euro,” and find it instantly.
 
 ---
 
